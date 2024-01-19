@@ -2,5 +2,18 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="DoublyLinkedList.cpp">
+      <Filter>DoublyLinkedList</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="DoublyLinkedList">
+      <UniqueIdentifier>{c454a7b3-5cb2-43d4-87d4-7ebdfcc772f4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="DoublyLinkedList.h">
+      <Filter>DoublyLinkedList</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
